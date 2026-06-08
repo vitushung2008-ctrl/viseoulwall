@@ -9,12 +9,6 @@
     "JWT_SECRET": "@jwt_secret",
     "ADMIN_PASSWORD": "@admin_password"
   },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
